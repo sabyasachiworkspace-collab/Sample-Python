@@ -1,0 +1,57 @@
+1.Write a function that returns the factorial of a number.
+2.create a l,i,st of 5 numbers print the square of each number 
+    numbers =[2,4,,8,6,10]
+    squares=[num**2 for num in numbers]
+    print("square", squares)
+
+3.Add a new number to the list and sort it in ascending order
+    numbers = [2,4,8,6,10]
+    numbers.append(3)
+    numbers.sort()
+
+create a dictionary with student names as key and marks as values
+create a dictionary and a new name with upadate marks for an existing student.
+(i) write the student marks dictionary to a file called  student_mark.txt
+    with open ("student_mark.txt", "w") as f:
+    for name, score in mark.items();
+    f.write(f"{name}: {score}\n")
+
+(ii) Read the contents of the student_mark.text 
+    with open("student_mark.text", "r") as f:
+    content = f.reard()
+    print ("file content : \n", content)
+
+(i)Creat a dictionary and write it to Json file
+    import Json
+    employee_data = {"name":'A',
+                    "age":20,
+                    "department":" Computer Science",
+                    "skils":["Java", "Python"] }
+    with open ("employee.Json", "w") F 
+
+
+(ii)read the Json file and print the content
+    with open ("employee.Json", 'r') as f:
+    data = json.load(f)
+    print("employee data", data)
+    print ("name", data['name'])
+    print("skills:", "," .Json(data["skills]))
+
+(iii) upadate the data (add  a new skill and save it back)
+    data["skills".append ("Teamwork")]
+    with open("employee.Json", "w") as f: 
+    json.dump (data, f, indent = 4)
+    print("update a new skill saved")
+
+(iv) Exception
+
+Exception handling - Handle divison by 0
+try 
+    a= int(input("Enter a numerator"))
+    b = int (input ("Enter a denominator"))
+    result = a/b
+    print("result", result)
+    except zerodivisonerror
+        print("error: you can not dividde by zero")
+        
+numpy panda metapoli lab

@@ -11,8 +11,10 @@ print(f"The factorial {n} of", factorial(n))
 # numbers = [4,2,8,6,10]
 # squares=[num**2 for num in numbers]
 # print("square", squares)
+
+#numbers = [4,2,8,6,10]
 # numbers.sort()
-# print (numbers)
+# print (numbers)   
 
 # numbers = [4,2,8,6,10]
 # numbers.append(15)
